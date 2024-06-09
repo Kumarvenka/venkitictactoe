@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #080c0c;
+    text-align: center;
+    color: #ffff;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 75%;
+    width: 389.75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+
+
+    
+}
+.box{
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1rem;
+    cursor: pointer;
+    display: flex; /* Added */
+    justify-content: center; /* Added */
+    align-items: center; /* Added */
+    font-size: 2rem; /* Added to ensure text fits well */
+    background-color: #6d5eaf;
+    color: black;
+    border: 2px solid white;
+
+    
+
+}
+h1{
+    background-color: #6d5eaf;
+    display: inline-block;
+    width: 30vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #080c0c;
+    font-style: normal;
+}
+.reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191917;
+    color: #ffff;
+    border: none;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+.newgame{
+    padding: 1rem;
+    font-size: 1.15rem;
+    background-color: #191917;
+    color: #ffff;
+    border: none;
+    border-radius: 1rem;
+    border: 2px solid white;
+
+}
+#msg {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 1rem; /* Adds some space above the message */
+    color: #ff5722; /* Choose a color that stands out */
+}
